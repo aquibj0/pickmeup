@@ -5,3 +5,64 @@
 
 
 
+body {
+    background: url('https://fueler.io/images/fueler/discover__top_bg.jpg');
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 7px 21px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0d0543;
+}
+
+.form-control {
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #00fbff, #10dce8 99.99%, #09c9e3);
+    border-color: #00fbff;
+    border-radius: 6px;
+    color: #0d0543;
+    font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background: linear-gradient(141.39deg, #E3FFFD 17.58%, #FFEDFB 73.17%); */
+    background: linear-gradient(180deg, #00fbff, #10dce8 99.99%, #09c9e3);
+    color: #0D0543;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem
+}
+
+
